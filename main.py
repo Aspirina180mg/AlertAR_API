@@ -5,8 +5,8 @@ app = FastAPI()
 
 # Endpoints de la API
 # @profile
-@app.get('/Inversor/{texto}')
-async def Inversor(texto: str):
+@app.get('/inversor/{texto}')
+async def inversor(texto: str):
     """
     Devuelve el texto ingresado, pero invertido
     Si recibe números, los convierte automáticamente a texto y los invierte igualmente
@@ -27,6 +27,6 @@ async def Inversor(texto: str):
 
     >\> {'anit al aval atina'}
     """
-    
+
     texto_invertido = texto[::-1]
     return texto_invertido
