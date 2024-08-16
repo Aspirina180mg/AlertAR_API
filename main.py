@@ -18,15 +18,15 @@ async def inversor(texto: str):
 
     Devuelve
     -------
-    str
-        Una cadena de caracteres con el mismo texto que se ingresó, pero invertido.
+    dict
+        Un diccionario con la variable TextoInvertido y el texto correspondiente en str.
 
     Ejemplo
     --------
     \>\>\> Invertir("anita lava la tina")
 
-    >\> {'anit al aval atina'}
+    >\> {"TextoInvertido": "anit al aval atina"}
     """
 
     texto_invertido = texto[::-1]
-    return texto_invertido
+    return {"TextoInvertido": texto_invertido}

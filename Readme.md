@@ -43,7 +43,7 @@ Un ejemplo de uso sería `[alertar-api.onrender.com/inversor/](https://alertar-a
 
 A medida que la API se vaya complejizando, se listarán aquí todas las funciones (Endpoints) incluidas en la misma,
 
-1. **inversor():** Devuelve el texto de la consulta, pero invertido
+1. **inversor():** Devuelve el texto de la consulta, pero invertido, en formato de diccionario como {"TextoInvertido" : "texto"}
 
 para más información se puede consultar la documentación de la api en :
 [https://alertar-api.onrender.com/docs](https://alertar-api.onrender.com/docs)
